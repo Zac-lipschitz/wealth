@@ -15,6 +15,7 @@
   "dependencies": {
     "@remix-run/cloudflare": "^2.0.1",
     "@remix-run/cloudflare-pages": "^2.0.1",
+    "@remix-run/node": "^2.0.1",
     "@remix-run/react": "^2.0.1",
     "classnames": "^2.3.2",
     "dayjs": "^1.11.10",
@@ -26,7 +27,8 @@
     "remix-auth-sso": "^0.0.2",
     "remix-i18n": "^1.0.1",
     "sqlstring": "^2.3.3",
-    "zod": "^3.22.2"
+    "zod": "^3.22.2",
+    "@supabase/supabase-js": "^1.35.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230922.0",
