@@ -2,7 +2,7 @@ import {
   type LoaderFunction,
   type ActionFunction,
   redirect
-} from '@remix-run/cloudflare';
+} from '@remix-run/node';
 
 export const loader: LoaderFunction = () => {
   return redirect('/');
