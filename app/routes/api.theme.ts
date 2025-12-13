@@ -3,7 +3,7 @@ import {
   redirect,
   type ActionFunction,
   json
-} from '@remix-run/cloudflare';
+} from '@remix-run/node';
 import { z } from 'zod';
 import { themeCookie } from '~/cookie.server';
 import { themes } from '~/themes';
