@@ -4,7 +4,7 @@ import {
   redirect,
   type LinksFunction,
   type LoaderFunction
-} from '@remix-run/cloudflare';
+} from '@remix-run/node';
 import {
   Links,
   LiveReload,
